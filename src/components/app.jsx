@@ -1,7 +1,18 @@
 import React from 'react';
 
+import Gif from './gif';
+
 const App = () => {
-  return <h1>Hello, world</h1>;
+  return (
+    <div>
+      <div className="left-scene">
+        <div className="selected-gif">
+          <Gif />
+        </div>
+      </div>
+      <div className="right-scene" />
+    </div>
+  );
 };
 
 export default App;
