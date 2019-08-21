@@ -1,13 +1,15 @@
 import React from 'react';
 
 import Gif from './gif';
+import SearchBar from './search-bar';
 
 const App = () => {
   return (
     <div>
       <div className="left-scene">
+        <SearchBar />
         <div className="selected-gif">
-          <Gif />
+          <Gif id="YAlhwn67KT76E" />
         </div>
       </div>
       <div className="right-scene" />
