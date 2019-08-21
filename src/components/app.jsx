@@ -2,6 +2,7 @@ import React from 'react';
 
 import Gif from './gif';
 import SearchBar from './search-bar';
+import GifList from './gif-list';
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
           <Gif id="YAlhwn67KT76E" />
         </div>
       </div>
-      <div className="right-scene" />
+      <div className="right-scene">
+        <GifList />
+      </div>
     </div>
   );
 };
