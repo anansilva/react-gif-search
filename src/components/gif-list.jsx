@@ -9,14 +9,18 @@ class GifList extends Component {
       "14v2j9FG5lXpMA"
     ];
 
+    this.renderList = () => {
+      return giphyMock.map((id) => {
+        return <Gif id={id} key={id} />;
+      });
+    };
+
     return (
       <div className="gif-list">
-        {giphyMock.map(id => {
-          return <Gif id={id} key={id}/>
-        })}
+        {this.renderList()}
       </div>
     );
-  };
-} 
+  }
+}
 
 export default GifList;
