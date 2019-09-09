@@ -2,7 +2,7 @@
 
 Simple React app exercise using giphy api.
 
-## Installation
+## Setup
 
 ```
 git clone git@github.com:anansilva/react-gif-search
