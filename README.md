@@ -1,6 +1,6 @@
 # React gif search app
 
-Simple React app exercise using giphy api,
+Simple React app exercise using giphy api.
 
 ## Installation
 
